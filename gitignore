@@ -1,0 +1,53 @@
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de ambiente virtual
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+.env
+# Configuração do Poetry
+poetry.lock
+
+# Arquivos do VS Code
+.vscode/
+
+# Logs e bancos de dados locais
+*.log
+*.sqlite3
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Arquivos do Streamlit
+.streamlit/
+
+# Imagens e GIFs que podem ser gerados
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Cache do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos específicos do Windows e Mac
+Thumbs.db
+ehthumbs.db
+
+# Arquivos do MacOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Arquivos do Linux
+*~
