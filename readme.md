@@ -88,21 +88,21 @@ Para garantir uma melhor usabilidade e experiência do usuário, o dashboard foi
 
 A seção de Resumo apresenta os principais KPIs do sistema de forma objetiva, utilizando "Big Numbers" para facilitar a visualização rápida dos indicadores mais importantes, como total de logs, eventos de sucesso, erros e latência média.
 
-![Latencia](dash_telemetria/img/latencia.png)
+![Latencia](img/latencia.png)
 
 ### 1.5.2 Eventos no Tempo
 
 A seção Eventos ao Longo do Tempo permite visualizar a distribuição dos logs conforme a granularidade desejada (ano, mês, dia, hora ou minuto). Essa funcionalidade é útil para identificar padrões e anomalias no processamento de eventos ao longo do tempo.
 
-![Eventos](dash_telemetria/img/Eventos.png)
+![Eventos](img/Eventos.png)
 
 ### 1.5.3 Análise por Serviço
 
 Essa seção exibe uma visão detalhada sobre a quantidade e latência média dos eventos por serviço. A análise por serviço permite identificar quais serviços são mais demandados e quais podem estar impactando a performance geral do sistema devido a latências elevadas.
 
-![Quantidade de eventos](dash_telemetria/img/QTDEventos.png)
+![Quantidade de eventos](img/QTDEventos.png)
 
-![Quantidade de eventos](dash_telemetria/img/QTDEventos2.png)
+![Quantidade de eventos](img/QTDEventos2.png)
 
 ### 1.5.4 Erros por Serviço
 
@@ -115,8 +115,7 @@ Permite identificar serviços com falhas e explorar os detalhes de cada erro rep
 
 Com esse dashboard, foi possível identificar que o módulo data_ingestion está enviando um número excessivo de eventos de iniciar_producer e consumer_callback. Essa descoberta gerou um insight crítico sobre desperdício de processamento, esse comportamento será otimizado para reduzir o consumo de recursos.
 
-![Módulo](dash_telemetria/img/modulo.png)
-
+![Módulo](img/modulo.png)
 
 ## 1.6 Insights e Análises
 
